@@ -1,0 +1,314 @@
+/* Main Style Sheet for Crowdsort */
+
+
+html {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    width: 100%;
+}
+
+body {
+    background-color: #2ecc71;
+}
+
+.clear {
+    clear: both;
+}
+
+.masthead {
+    width: 100%;
+    height: 75px;
+    background-color: #34495e;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.nav {
+    width: 960px;
+    position: fixed;
+
+    top: 0;
+    left: 50%;
+    margin-left: -480px;
+    z-index: 2;
+
+}
+
+#dboard {
+    text-align: center;
+}
+
+.nav img {
+    position: absolute;
+    top: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    position: relative;
+    top: 30px;
+    text-align: right;
+
+}
+
+.nav li {
+    display: inline;
+    padding-right: 25px;
+    font-weight: 300;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content-bg {
+    background: #2ecc71;
+}
+
+.content {
+    position: relative;
+    width: 960px;
+    top: 120px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #fff;
+    padding-bottom: 100px;
+
+}
+
+.content ul li img {
+    width: 200px;
+    margin-bottom: 20px;
+
+}
+
+.content ul li p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.content ul {
+    margin-top: 20px;
+    list-style: none;
+
+
+}
+.content ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content li {
+    display: inline;
+    width: 320px;
+    float: left;
+    text-align: center;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: fixed;
+    top:55px;
+    left: 50%;
+    margin: 0 auto;
+    border-top: 60px solid #34495e;
+    margin-left: -100px;
+
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 15px;
+
+}
+
+.content h1 {
+
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.content table {
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+.content th {
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    vertical-align: middle;
+}
+
+.content td {
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    border-bottom: 1px solid #fff;
+    vertical-align: middle;
+    padding-bottom: 10px;
+    font-weight: 300;
+
+}
+
+.content th:last-child {
+    border-right: none;
+    vertical-align: middle;
+}
+
+.content td:last-child {
+    border-right: none;
+    vertical-align: middle;
+}
+
+.content .welcome {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.form-table table td {
+
+    text-align: left;
+    border: none;
+
+}
+
+.form-table table th {
+    border: none;
+    text-align: right;
+    padding-top: 20px;
+}
+
+
+.content .create {
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: #f17467;
+    height: 40px;
+    margin-right: 10px;
+    position: relative;
+    color:#fff;
+    text-decoration:none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content .create img {
+    top: 10px;
+    padding-right: 5px;
+    position: relative;
+    width: 30px;
+}
+
+.content label {
+    font-size: 18px;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+.content input[type="submit"] {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    background-color: #e74c3c;
+    border: none;
+    outline: none;
+    color:#fff;
+    text-decoration:none;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.content input[type="text"] {
+    font-size: 18px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.content input[type="password"] {
+    font-size: 18px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.content input[type="checkbox"]{
+    border: none;
+}
+
+.content select {
+    width: 200px;
+    font-size: 18px;
+    height: 200px;
+    border: none;
+}
+
+.content .landing-text {
+    width: 700px;
+    float: left;
+
+}
+
+.content .front-graphic {
+    width: 260px;
+    float: right;
+}
+
+.landing-text p {
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+
+
+
+.landing-text h1 {
+    font-size: 56px;
+    font-weight: 800;
+  /*  font-size: 60px;*/
+ text-transform: uppercase;
+}
+
+.landing-text h1:nth-child(2) {
+    color: #34495e;
+}
+
+.results-table td{
+    font-size: 24px;
+}
+
+.results-table strong {
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 32px;
+}

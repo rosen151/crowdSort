@@ -1,0 +1,33 @@
+###################
+CrowdSort Workflow
+###################
+
+as of 03/10/2014
+
+- Closed Cart Sort
+    - Predefined Top-Level Categories
+    - 10 Content Items per Turker
+
+
+- User Workflow
+    - Creating a Project
+        - Visits CrowdSort website
+        - Registers as a user
+        - Logs in as a user
+        - Create new project
+            - Assigns ProjectID
+        - Adds Top Level Categories
+        - Adds Content Items
+        - Preview Project  ?????
+        - Deposits Money for Project
+        - Submits Project to the Crowd
+    - Reviewing Projects
+        - User logs in to CrowdSort page
+        - User selects project
+        - Information displayed
+            - Percentages based on page items in categories
+        - Show project process
+- Turker Workflow
+    - HIT Process
+        - Turker looks for HIT
+        - Turker

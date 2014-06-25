@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/crowdsort.iml" filepath="$PROJECT_DIR$/crowdsort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crowdsort-grailsPlugins.iml" filepath="$PROJECT_DIR$/crowdsort-grailsPlugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gwurk-inplacePlugin.iml" filepath="$PROJECT_DIR$/gwurk-inplacePlugin.iml" />
+    </modules>
+  </component>
+</project>
+
